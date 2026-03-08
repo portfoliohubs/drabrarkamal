@@ -1,0 +1,383 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Michael Nabil"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Michael Nabil"
+    tagline = "Endodontist"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/32d363af-0c59-4bae-9ba3-97330259af67"
+    profile_image_alt = "Profile photo of Dr. Michael Nabil"
+    
+    [params.hero.current_position]
+      role = "Endodontist"
+      clinic = "Endodontist at Zagazig University Hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Michael Nabil"
+    doctor_name_ar = "د. مايكل نبيل"
+    site_name = "Dr. Michael Nabil"
+    og_image = "https://github.com/user-attachments/assets/aebdddac-2d0d-4671-9af3-4c666851a796"
+    favicon_image = "https://github.com/user-attachments/assets/aebdddac-2d0d-4671-9af3-4c666851a796"
+    twitter_handle = ""
+    keywords = [
+      "دكتورة ابرار كمال",
+      "ابرار كمال دكتورة اسنان",
+      "دكتوره ابرار كمال اسنان",
+      "ابرار كمال دكتورة",
+      "دكتورة اسنان",
+      "دكتورة اسنان ابرار كمال",
+      "طبيبة اسنان ابرار كمال",
+      "طبيبة اسنان",
+      "ابرار كمال طبيبة اسنان",
+      "د/ ابرار كمال",
+      "د/ ابرار كمال اسنان",
+      "د/ ابرار كمال طبيبه اسنان",
+      "Dr Abrar Kamal",
+      "dentist Abrar Kamal",
+      "Abrar Kamal dentist",
+      "dentist"
+    ]
+    keywords_ar = [
+      "دكتورة ابرار كمال",
+      "ابرار كمال دكتورة اسنان",
+      "دكتوره ابرار كمال اسنان",
+      "ابرار كمال دكتورة",
+      "دكتورة اسنان",
+      "دكتورة اسنان ابرار كمال",
+      "طبيبة اسنان ابرار كمال",
+      "طبيبة اسنان",
+      "ابرار كمال طبيبة اسنان",
+      "د/ ابرار كمال",
+      "د/ ابرار كمال اسنان",
+      "د/ ابرار كمال طبيبه اسنان",
+      "Dr Abrar Kamal",
+      "dentist Abrar Kamal",
+      "Abrar Kamal dentist",
+      "dentist"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Surgery",
+      "Endodontics",
+      "Cosmetic Dentistry",
+      "Fixed Prosthodontics",
+      "Removable Prosthodontics",
+      "Periodontics"
+    ]
+    
+    digital = [
+      "Medical Photography",
+      "PowerPoint",
+      "CAD/CAM"
+    ]
+    
+    soft = [
+      "Time Management",
+      "Pediatric Patients Management"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Zagazig University"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "الحشو العادى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/2f4e9e1e-0138-4668-b2b2-868e872a7e1a"
+      alt = "Class IV Build up by composite restoration"
+      description = "Class IV Build up by composite restoration"
+      alt_ar = "البناء من الفئة الرابعة عن طريق الترميم المركب"
+      description_ar = "البناء من الفئة الرابعة عن طريق الترميم المركب"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b137cd7b-297e-434b-8f21-1a8f76a93434"
+      alt = "Class III Composite restoration"
+      description = "Class III Composite restoration"
+      alt_ar = "الترميم المركب من الفئة الثالثه"
+      description_ar = "الترميم المركب من الفئة الثالثه"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/a336353c-a088-47e6-8a26-71dfcf058f1d"
+      alt = "Diastema closure"
+      description = "Diastema closure"
+      alt_ar = "غلق الفراغات بين الأسنان"
+      description_ar = "غلق الفراغات بين الأسنان"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/bf3375df-7f2d-466e-94ab-88f2f808141b"
+      alt = "U7 Class 1 composite restoration"
+      description = "U7 Class 1 composite restoration"
+      alt_ar = "ترميم المركب الفئة الاولى للسن السابع العلوي"
+      description_ar = "ترميم المركب الفئة الاولى للسن السابع العلوي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/a5043fb4-88d1-4d21-b705-a1f5f88bb0d3"
+      alt = "Class II composite restoration"
+      description = "Class II composite restoration"
+      alt_ar = "الترميم المركب من الفئة الثانية"
+      description_ar = "الترميم المركب من الفئة الثانية"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/babfd4ae-737d-4726-a939-a7d3dce7ae6f"
+      alt = "Class 1 composite restoration"
+      description = "Class 1 composite restoration"
+      alt_ar = "الترميم المركب من الفئة الاولى"
+      description_ar = "الترميم المركب من الفئة الاولى"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/42c38f55-844a-4bcd-b443-fd3ef77533c3"
+      alt = "L6 & L7 Class 1 composite restoration (single visit)"
+      description = "L6 & L7 Class 1 composite restoration (single visit)"
+      alt_ar = "ترميم المركب للسن السادس والسابع سفلي من الفئة الاولى في زيارة واحدة"
+      description_ar = "ترميم المركب للسن السادس والسابع سفلي من الفئة الاولى في زيارة واحدة"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed prosthesis"
+    category_ar = "تركيبات ثابتة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e841212a-8096-4fa6-b5f7-a83fa3641118"
+      alt = "Bridge PFM"
+      description = "Bridge PFM"
+      alt_ar = "جسر الخزف المنصهر بالمعدن"
+      description_ar = "جسر الخزف المنصهر بالمعدن"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو العصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e34f20b2-8a8d-448a-ae4e-11e801c4f440"
+      alt = "RCT for upper lateral incisor"
+      description = "RCT for upper lateral incisor"
+      alt_ar = "علاج عصب القاطع الجانبي العلوي"
+      description_ar = "علاج عصب القاطع الجانبي العلوي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/fbb2367d-567a-48af-aab3-ae7ca026fb50"
+      alt = "RCT for Upper 5"
+      description = "RCT for Upper 5"
+      alt_ar = "علاج عصب الضرس الخامس علوي"
+      description_ar = "علاج عصب الضرس الخامس علوي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/9a2de497-0336-4b85-986a-eb9a572c0e85"
+      alt = "RCT for Lower 6"
+      description = "RCT for Lower 6"
+      alt_ar = "علاج عصب الضرس سادس سفلي"
+      description_ar = "علاج عصب الضرس سادس سفلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Periodontics"
+    category_ar = "علاج اللثة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/aab854bf-cd22-4d6e-a1be-d1daa79cc10c"
+      alt = "Scaling & polishing (clean & neat)"
+      description = "Scaling & polishing (clean & neat)"
+      alt_ar = "جلسه تنضيف جير وتلميع اسنان"
+      description_ar = "جلسه تنضيف جير وتلميع اسنان"
+      
+  # Contact Section
+  [params.contact]
+    phone = ""
+    whatsapp = ""
+    email = ""
+    instagram = ""
+    facebook = ""
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "Ashraf dental clinic ( المنيا - ميدان الساعه )"
+      latitude = "28.09617206489068"
+      longitude = "30.7588864595209"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. مايكل نبيل"
+    tagline = "أخصائي حشو عصب"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
+    
+    [params.ar.hero.current_position]
+      role = "أخصائي حشو عصب"
+      clinic = "أخصائي حشو عصب في مستشفى جامعة الزقازيق"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحة",
+      "حشو عصب",
+      "حشو تجميلي",
+      "تركيبات ثابتة",
+      "تركيبات متحركة",
+      "علاج أمراض اللثة"
+    ]
+    
+    digital = [
+      "التصوير الطبي",
+      "powerpoint",
+      "cadcam"
+    ]
+    
+    soft = [
+      "إدارة الوقت",
+      "التواصل مع المرضى سن الأطفال"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة الزقازيق"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول الى الكلية"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكلية"  
+
+  [params.ar.contact.location]
+    address = ""
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
