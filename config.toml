@@ -1,26 +1,26 @@
-baseURL = "https://portfoliohubs.github.io/MICKY/"
+baseURL = "https://portfoliohubs.github.io/drabrarkamal/"
 languageCode = "en-us"
-title = "Dr. Michael Nabil"
+title = "Dr. Abrar Kamal"
 defaultContentLanguage = "en"
 
 [params]
   # Hero Section
   [params.hero]
-    name = "Dr. Michael Nabil"
-    tagline = "Endodontist"
+    name = "Dr. Abrar Kamal"
+    tagline = "Internship"
     graduation = "Graduated 2025 - Faculty of Dentistry"
     profile_image = "https://github.com/user-attachments/assets/32d363af-0c59-4bae-9ba3-97330259af67"
-    profile_image_alt = "Profile photo of Dr. Michael Nabil"
+    profile_image_alt = "Profile photo of Dr. Abrar Kamal"
     
     [params.hero.current_position]
-      role = "Endodontist"
-      clinic = "Endodontist at Zagazig University Hospital"
+      role = "Internship"
+      clinic = "Deraya university hospital - Ashraf dental clinic"
 
   [params.seo]
     description = "Professional dental portfolio"
-    doctor_name_en = "Dr. Michael Nabil"
-    doctor_name_ar = "د. مايكل نبيل"
-    site_name = "Dr. Michael Nabil"
+    doctor_name_en = "Dr. Abrar Kamal"
+    doctor_name_ar = "د. ابرار كمال"
+    site_name = "Dr. Abrar Kamal"
     og_image = "https://github.com/user-attachments/assets/aebdddac-2d0d-4671-9af3-4c666851a796"
     favicon_image = "https://github.com/user-attachments/assets/aebdddac-2d0d-4671-9af3-4c666851a796"
     twitter_handle = ""
@@ -116,28 +116,32 @@ defaultContentLanguage = "en"
   # Skills Section
   [params.skills]
     clinical = [
-      "Surgery",
-      "Endodontics",
-      "Cosmetic Dentistry",
-      "Fixed Prosthodontics",
-      "Removable Prosthodontics",
-      "Periodontics"
+      "Operative",
+      "Root Canal Treatment (Manual & Rotary Systems)",
+      "Periodontics",
+      "Fixed prosthesis",
+      "Surgery"
     ]
     
     digital = [
-      "Medical Photography",
-      "PowerPoint",
-      "CAD/CAM"
+      "Dental Macro photography",
+      "Editing",
+      "Microsoft programs works",
+      "Marketing"
     ]
     
     soft = [
-      "Time Management",
-      "Pediatric Patients Management"
+      "Ability to provide excellent patient care",
+      "Communicate effectively",
+      "Time management",
+      "Communication with children",
+      "Developing short-term and long-term treatment plans",
+      "Speaking languages (Arabic, English)"
     ]
 
   # Education Section
   [params.education]
-    university = "Zagazig University"
+    university = "Deraya university"
     graduation_year = "2025"
     
     [params.education.master]
@@ -269,9 +273,9 @@ defaultContentLanguage = "en"
       
   # Contact Section
   [params.contact]
-    phone = ""
-    whatsapp = ""
-    email = ""
+    phone = "+201020879516"
+    whatsapp = "+201020879516"
+    email = "akz585es@gmail.com"
     instagram = ""
     facebook = ""
     linkedin = ""
@@ -285,39 +289,43 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "د. مايكل نبيل"
-    tagline = "أخصائي حشو عصب"
+    name = "د. ابرار كمال"
+    tagline = "طبيب امتياز"
     graduation = "تخرج 2025 - كلية طب الأسنان"
-    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
+    profile_image_alt = "صورة الملف الشخصي للدكتور ابرار كمال"
     
     [params.ar.hero.current_position]
-      role = "أخصائي حشو عصب"
-      clinic = "أخصائي حشو عصب في مستشفى جامعة الزقازيق"
+      role = "طبيب امتياز"
+      clinic = "مستشفى جامعه درايه - عياده دكتور أشرف"
   
 [params.ar.skills]
     clinical = [
-      "جراحة",
-      "حشو عصب",
-      "حشو تجميلي",
-      "تركيبات ثابتة",
-      "تركيبات متحركة",
-      "علاج أمراض اللثة"
+      "حشو عادي",
+      "علاج العصب (يدوي و روتاري)",
+      "امراض لثه",
+      "تركيبات ثابته",
+      "خلع اسنان"
     ]
     
     digital = [
-      "التصوير الطبي",
-      "powerpoint",
-      "cadcam"
+      "تصوير دقيق طبي",
+      "مونتاج",
+      "استخدام Microsoft programs",
+      "تسويق"
     ]
     
     soft = [
+      "القدرة على توفير رعاية ممتازة للمرضى",
+      "التواصل بفعالية",
       "إدارة الوقت",
-      "التواصل مع المرضى سن الأطفال"
+      "التواصل مع الأطفال",
+      "وضع خطط علاج قصيرة الأجل وطويلة الأجل",
+      "التحدث باللغات (العربية والإنجليزية)"
     ]
     
   
   [params.ar.education]
-    university = "جامعة الزقازيق"
+    university = "جامعه درايه"
     
     [params.ar.education.master]
       title = "ماجستير في طب الفم"
