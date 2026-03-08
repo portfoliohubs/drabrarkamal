@@ -14,7 +14,7 @@ defaultContentLanguage = "en"
     
     [params.hero.current_position]
       role = "Internship"
-      clinic = "Deraya university hospital - Ashraf dental clinic"
+      clinic = "Deraya university hospital and works at Ashraf dental clinic"
 
   [params.seo]
     description = "Professional dental portfolio"
